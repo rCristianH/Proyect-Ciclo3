@@ -1,0 +1,28 @@
+.form{
+    width: 350px;
+    height: 500px;
+    background-color: rgba(82, 80, 80, 0.575);
+    border-radius: 15px; 
+    position: relative;
+    top: 100px;
+   
+}
+#usercircle2{
+    display: flex;
+    justify-content: center;
+    color: #367ce6ee;
+    font-size: 100px;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border-radius: 100px;
+    background: white;
+    position: relative;
+    top: -45px;
+}
+.Regis{
+    margin: auto;
+    display: flex;
+    position: relative;
+    width: 270px;
+}

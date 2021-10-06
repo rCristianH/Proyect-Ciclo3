@@ -30,29 +30,39 @@ body{
     background: white;
     position: relative;
     top: -45px;
- 
 }
 #signin{
     text-align:center;
     color:white;
-    font-size:30px;
+    font-size:40px;
     position:relative;
     top:-20px;
 }
 .login{
-    justify-content: center;
     margin: auto;
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     position: relative;
     width: 270px;
 }
 #usericon{
-    background: white;
-    padding: 6px 6px 7px 6px;
-    font-size: 20px;
+    padding: 8px 15px;
+    font-size: 25px;
     position: relative;
+    left: -21px;
+    color: white;
+    border-right:2px solid white;
+}
+.buttons #usericon:hover{
+    background: white;
+    padding: 8px 15px;
+    font-size: 25px;
+    position: relative;
+    left: -21px;
     color: #367ce6ee;
-    border-right:1px solid gray;
+    border-right:2px solid #367ce6ee;
 }
 .divuser{
     position: relative;
@@ -60,77 +70,59 @@ body{
     height: 25px;
     margin-bottom: 20px;
 }
-.divuser #user:hover{
-    border-color:#367ce6ee ;
-}
 .login .divuser{
     padding: 0px 0px 8px 0px;
 }
-#user{
-    width: 235px;
-    height: 30px;
-    text-align: left;
-    border: none;
+#regisicon{
+    padding: 8px 10px;
+    font-size: 23px;
     position: relative;
-    top: -1px;
+    left: -40px;
+    color: white;
+    border-right: 2px solid white;
 }
-.divpass{
+.buttons #regisicon{
+    padding: 8px 10px;
+    font-size: 23px;
     position: relative;
+    left: -40px;
+    color: white;
+    border-right: 2px solid white;
+}
+.buttons  #regisicon:hover{
     background: white;
-    height: 25px;
-    margin-bottom: 20px;
-}
-.login .divpass{
-    padding: 0px 0px 8px 0px;
-}
-#iconpas{
-    background: white;
-    padding: 6px 6px 7px 6px;
-    font-size: 20px;
+    padding: 8px 10px;
+    font-size: 23px;
     position: relative;
+    left: -40px;
     color: #367ce6ee;
-    border-right:1px solid gray;
+    border-right: 2px solid #367ce6ee;
 }
-#password{
-    width: 235px;
-    height: 30px;
-    text-align: left;
-    border: none;
-    position: relative;
-    top: -1px;
-}
-.divend{
-    display: flex;
-    align-content: center;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-
 .buttons{
    background: #367ce6ee; 
-   width: 150px;
+   width: 220px;
    height: 50px;
    color: white;
    font-size: 20px;
    border: none;
    border-radius: 5px;
-   margin-top: 40px;
+   margin-top: 30px;
 
 }
-
 .buttons:hover{
     background: white;
     color: #367ce6ee;
     border: 2px solid #367ce6ee;
 }
 
+button a:hover{
+    text-decoration: underline;
+    background: white;
+    color: #367ce6ee !important;
+}
 input{
     outline-color: #367ce6ee;
 }
-
-
 :root{
     --iconpas:blue;
 }
