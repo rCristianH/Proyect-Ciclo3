@@ -5,17 +5,24 @@ import '../components/App.css';
 import '../components/Estilos/Style.css'
 import GoogleLogin from 'react-google-login';
 import Registro from '../components/Registro';
+import datoEmail from '../components/Registro';
 
 function App() {
   const respuestaGoogle=(respuesta)=>{
     console.log(respuesta);
     console.log(respuesta.profileObj);
-    //console.log(respuesta.profileObj.email);
     
     for(const dato in respuesta.profileObj){
         console.log(`${dato}:${respuesta.profileObj[dato]}`)
         if(`${dato}` === 'email'){
           console.log(`${respuesta.profileObj[dato]}`);
+          console.log(datoEmail);
+          /*if(`${respuesta.profileObj[dato]}` == Registro(newUser){
+            console.log("Bienvenido")
+          }
+          else{
+            console.log("No eres bienvenido")
+          }*/
         }
     }
 
@@ -37,10 +44,12 @@ function App() {
           onSuccess={respuestaGoogle}
           onFailure={respuestaGoogle}
           cookiePolicy={'single_host_origin'}   
-          />    
+          />  
+          <Link to={'/Registro'} style={{textDecoration: 'none'}}>  
           <button type={'button'} className="buttons">
-            <a Id={'regisicon'} className="fas fa-user-plus"></a><Link to={'/Registro'} style={{textDecoration: 'none', color: 'white'}}>Registrar</Link>
+            <a Id={'regisicon'} className="fas fa-user-plus"></a>Registrar
           </button>
+          </Link>
         </div>          
     </section>
     </Route>
