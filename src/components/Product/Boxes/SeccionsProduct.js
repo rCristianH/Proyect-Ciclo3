@@ -1,6 +1,6 @@
 import React from "react";
 import "./../../css/StyleProduct.css";
-import "./../../css/SeccionsProduct.css";
+
 
 function Secciones() {
   return (

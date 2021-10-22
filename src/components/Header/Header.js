@@ -7,15 +7,22 @@ import Secciones from "../Product/Boxes/SeccionsProduct";
 import Buscar from "../Product/Boxes/SearchProduct";
 import RegistrarProducto from "../Product/Boxes/RegisterProduct";
 import ListaProductos from "../Product/Boxes/ListProduct";
+import Ventas from "../Sales/Ventas";
+import FormNewSale from "../Sales/Boxes/FormNewSale";
+import BuscarVenta from "../Sales/Boxes/SearchSale";
+import ListarVentas from "../Sales/Boxes/ListSale";
+import RegistrarVenta from "../Sales/Boxes/RegisterSale";
+import Usuarios from "../Users/Users";
+import ListaUsuarios from "../Users/Boxes/ListUser";
 
 function Cabecera () {
 
     return(
         <div>
-            <header>            
-                <BarraNavegacion/>
-                <RegistrarProducto/>
-            </header>
+                      
+            <BarraNavegacion/>
+
+            
         </div>
     )
 };

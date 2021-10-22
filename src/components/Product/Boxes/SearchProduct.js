@@ -1,8 +1,8 @@
 import React from "react";
 import "./../../css/StyleProduct.css";
-import "./../../css/SearchProduct.css";
 
-function Buscar() {
+
+function BuscarProducto() {
   return(
     <div>
       <div>
@@ -30,4 +30,4 @@ function Buscar() {
   )
 }
 
-export default Buscar;
+export default BuscarProducto;

@@ -11,126 +11,126 @@ function ListaProductos() {
           <ul class="details">
             <li class="topic">Date</li>
             <li>
-              <a href="#">02 Jan 2021</a>
+              <a >02 Jan 2021</a>
             </li>
             <li>
-              <a href="#">02 Jan 2021</a>
+              <a>02 Jan 2021</a>
             </li>
             <li>
-              <a href="#">02 Jan 2021</a>
+              <a>02 Jan 2021</a>
             </li>
             <li>
-              <a href="#">02 Jan 2021</a>
+              <a>02 Jan 2021</a>
             </li>
             <li>
-              <a href="#">02 Jan 2021</a>
+              <a>02 Jan 2021</a>
             </li>
             <li>
-              <a href="#">02 Jan 2021</a>
+              <a>02 Jan 2021</a>
             </li>
             <li>
-              <a href="#">02 Jan 2021</a>
+              <a>02 Jan 2021</a>
             </li>
             <li>
-              <a href="#">02 Jan 2021</a>
+              <a>02 Jan 2021</a>
             </li>
             <li>
-              <a href="#">02 Jan 2021</a>
+              <a>02 Jan 2021</a>
             </li>
           </ul>
           <ul class="details">
             <li class="topic">Customer</li>
             <li>
-              <a href="#">Alex Doe</a>
+              <a>Alex Doe</a>
             </li>
             <li>
-              <a href="#">David Mart</a>
+              <a>David Mart</a>
             </li>
             <li>
-              <a href="#">Roe Parter</a>
+              <a>Roe Parter</a>
             </li>
             <li>
-              <a href="#">Diana Penty</a>
+              <a>Diana Penty</a>
             </li>
             <li>
-              <a href="#">Martin Paw</a>
+              <a>Martin Paw</a>
             </li>
             <li>
-              <a href="#">Doe Alex</a>
+              <a>Doe Alex</a>
             </li>
             <li>
-              <a href="#">Aiana Lexa</a>
+              <a>Aiana Lexa</a>
             </li>
             <li>
-              <a href="#">Rexel Mags</a>
+              <a>Rexel Mags</a>
             </li>
             <li>
-              <a href="#">Tiana Loths</a>
+              <a>Tiana Loths</a>
             </li>
           </ul>
           <ul class="details">
             <li class="topic">Sales</li>
             <li>
-              <a href="#">Delivered</a>
+              <a>Delivered</a>
             </li>
             <li>
-              <a href="#">Pending</a>
+              <a>Pending</a>
             </li>
             <li>
-              <a href="#">Returned</a>
+              <a>Returned</a>
             </li>
             <li>
-              <a href="#">Delivered</a>
+              <a>Delivered</a>
             </li>
             <li>
-              <a href="#">Pending</a>
+              <a>Pending</a>
             </li>
             <li>
-              <a href="#">Returned</a>
+              <a>Returned</a>
             </li>
             <li>
-              <a href="#">Delivered</a>
+              <a>Delivered</a>
             </li>
             <li>
-              <a href="#">Pending</a>
+              <a>Pending</a>
             </li>
             <li>
-              <a href="#">Delivered</a>
+              <a>Delivered</a>
             </li>
           </ul>
           <ul class="details">
             <li class="topic">Total</li>
             <li>
-              <a href="#">$204.98</a>
+              <a>$204.98</a>
             </li>
             <li>
-              <a href="#">$24.55</a>
+              <a>$24.55</a>
             </li>
             <li>
-              <a href="#">$25.88</a>
+              <a>$25.88</a>
             </li>
             <li>
-              <a href="#">$170.66</a>
+              <a>$170.66</a>
             </li>
             <li>
-              <a href="#">$56.56</a>
+              <a>$56.56</a>
             </li>
             <li>
-              <a href="#">$44.95</a>
+              <a>$44.95</a>
             </li>
             <li>
-              <a href="#">$67.33</a>
+              <a>$67.33</a>
             </li>
             <li>
-              <a href="#">$23.53</a>
+              <a>$23.53</a>
             </li>
             <li>
-              <a href="#">$46.52</a>
+              <a>$46.52</a>
             </li>
           </ul>
         </div>
         <div class="hello">
-          <a href="#" font="bold">
+          <a font="bold">
             <b>Mostar Todos</b>
           </a>
         </div>

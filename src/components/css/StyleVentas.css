@@ -1,0 +1,26 @@
+.titulo {
+  height: 60px;
+  font-size: 40px;
+  padding-top: 0px;
+  color: #000;
+  text-align: center;
+
+  background-color: rgba(82, 80, 80, 0.575);
+}
+
+.buttons {
+  width: 220px;
+  height: 65px;
+  border-radius: 12px;
+  background: #367ce6ee;
+  border: none;
+  color: #fff;
+  font-size: 25px;
+}
+
+.buttons:hover{
+  background: #fff;
+  color: #367ce6ee;
+  border: 2px solid #367ce6ee;
+}
+

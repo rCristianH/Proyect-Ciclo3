@@ -1,12 +1,4 @@
-.overview-boxes{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding:  20px;
-    margin-bottom: 26px;
-    
-  }
+
 .box{
     display: inline-block;
     align-items: center;
