@@ -1,14 +1,15 @@
 
 .box{
-    display: inline-block;
-    align-items: center;
-    justify-content: center;
-    width: calc(100% / 4 - 15px);
-    background: rgba(255, 255, 255, 0);
-    padding: 15px 14px;
-    border-radius: 12px;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
-    border: 1px solid #fff
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  width: calc(100% / 4 - 15px);
+  background: rgba(255, 255, 255, 0);
+  padding: 15px 14px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
+  border: 1px solid #fff;
   }
 .box-topic{
     font-size: 20px;
@@ -38,4 +39,11 @@
   margin-top: 10px;
   color: #fff;
   border: 1px solid #fff;
+  background-color: #367ce6ee;
+  border-radius: 12px;
+}
+.btn:hover{
+  background-color: #fff;
+  color: #367ce6ee;;
+  border:1px solid #367ce6ee;
 }

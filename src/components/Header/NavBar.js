@@ -1,6 +1,6 @@
 import React from "react";
 import "./../css/StyleProduct.css";
-import { Switch, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function BarraNavegacion() {
   return (
@@ -9,33 +9,33 @@ function BarraNavegacion() {
       <Link to={"/"}>
         <div className="logo">
           <i className="bx bxs-up-arrow icon"></i>
-          <a className="enlaceLogoBarraNavegacion">TARGET</a>
+          <p className="enlaceLogoBarraNavegacion">TARGET</p>
         </div>
         </Link>
         <ul className="menu">
           <li className="listaNavegacionBarra">
             <Link to={"/"}>
-            <a className="enlaceListaBarraNavegacion">Home</a>
+            <p className="enlaceListaBarraNavegacion">Home</p>
             </Link>
           </li>
           <li className="listaNavegacionBarra">
             <Link to={"/Ventas"}>
-              <a className="enlaceListaBarraNavegacion">Ventas</a>
+              <p className="enlaceListaBarraNavegacion">Ventas</p>
             </Link>
           </li>
           <li className="listaNavegacionBarra">
             <Link to={'/Productos'}>
-            <a className="enlaceListaBarraNavegacion">Productos</a>
+            <p className="enlaceListaBarraNavegacion">Productos</p>
             </Link>
           </li>
           <li className="listaNavegacionBarra">
             <Link to={'/Usuarios'}> 
-            <a className="enlaceListaBarraNavegacion">Usuarios</a>
+            <p className="enlaceListaBarraNavegacion">Usuarios</p>
             </Link>
           </li>
           <li className="listaNavegacionBarra">
             {/* <Link to="/Contact"> */}
-            <a className="enlaceListaBarraNavegacion">Contact</a>
+            <p className="enlaceListaBarraNavegacion">Contact</p>
             {/* </Link> */}
           </li>
         </ul>

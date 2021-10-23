@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function ListaUsuarios() {
   return(
@@ -9,128 +10,128 @@ function ListaUsuarios() {
           <ul class="details">
             <li class="topic">Nombre</li>
             <li>
-              <a >02 Jan 2021</a>
+              <p >02 Jan 2021</p>
             </li>
             <li>
-              <a>02 Jan 2021</a>
+              <p>02 Jan 2021</p>
             </li>
             <li>
-              <a>02 Jan 2021</a>
+              <p>02 Jan 2021</p>
             </li>
             <li>
-              <a>02 Jan 2021</a>
+              <p>02 Jan 2021</p>
             </li>
             <li>
-              <a>02 Jan 2021</a>
+              <p>02 Jan 2021</p>
             </li>
             <li>
-              <a>02 Jan 2021</a>
+              <p>02 Jan 2021</p>
             </li>
             <li>
-              <a>02 Jan 2021</a>
+              <p>02 Jan 2021</p>
             </li>
             <li>
-              <a>02 Jan 2021</a>
+              <p>02 Jan 2021</p>
             </li>
             <li>
-              <a>02 Jan 2021</a>
+              <p>02 Jan 2021</p>
             </li>
           </ul>
           <ul class="details">
             <li class="topic">Email</li>
             <li>
-              <a>Alex Doe</a>
+              <p>Alex Doe</p>
             </li>
             <li>
-              <a>David Mart</a>
+              <p>David Mart</p>
             </li>
             <li>
-              <a>Roe Parter</a>
+              <p>Roe Parter</p>
             </li>
             <li>
-              <a>Diana Penty</a>
+              <p>Diana Penty</p>
             </li>
             <li>
-              <a>Martin Paw</a>
+              <p>Martin Paw</p>
             </li>
             <li>
-              <a>Doe Alex</a>
+              <p>Doe Alex</p>
             </li>
             <li>
-              <a>Aiana Lexa</a>
+              <p>Aiana Lexa</p>
             </li>
             <li>
-              <a>Rexel Mags</a>
+              <p>Rexel Mags</p>
             </li>
             <li>
-              <a>Tiana Loths</a>
+              <p>Tiana Loths</p>
             </li>
           </ul>
           <ul class="details">
             <li class="topic">Rol</li>
             <li>
-              <a>Delivered</a>
+              <p>Delivered</p>
             </li>
             <li>
-              <a>Pending</a>
+              <p>Pending</p>
             </li>
             <li>
-              <a>Returned</a>
+              <p>Returned</p>
             </li>
             <li>
-              <a>Delivered</a>
+              <p>Delivered</p>
             </li>
             <li>
-              <a>Pending</a>
+              <p>Pending</p>
             </li>
             <li>
-              <a>Returned</a>
+              <p>Returned</p>
             </li>
             <li>
-              <a>Delivered</a>
+              <p>Delivered</p>
             </li>
             <li>
-              <a>Pending</a>
+              <p>Pending</p>
             </li>
             <li>
-              <a>Delivered</a>
+              <p>Delivered</p>
             </li>
           </ul>
           <ul class="details">
             <li class="topic">Estado</li>
             <li>
-              <a>$204.98</a>
+              <p>$204.98</p>
             </li>
             <li>
-              <a>$24.55</a>
+              <p>$24.55</p>
             </li>
             <li>
-              <a>$25.88</a>
+              <p>$25.88</p>
             </li>
             <li>
-              <a>$170.66</a>
+              <p>$170.66</p>
             </li>
             <li>
-              <a>$56.56</a>
+              <p>$56.56</p>
             </li>
             <li>
-              <a>$44.95</a>
+              <p>$44.95</p>
             </li>
             <li>
-              <a>$67.33</a>
+              <p>$67.33</p>
             </li>
             <li>
-              <a>$23.53</a>
+              <p>$23.53</p>
             </li>
             <li>
-              <a>$46.52</a>
+              <p>$46.52</p>
             </li>
           </ul>
         </div>
         <div class="hello">
-          <a font="bold">
+          <Link font="bold">
             <b>Mostar Todos</b>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

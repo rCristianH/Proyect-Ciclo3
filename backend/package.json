@@ -1,26 +1,29 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "author": "ccrhdbj@outlook.com",
   "license": "MIT",
   "scripts": {
-    "watch": "nodemon src/index.js",
+    "watch": "nodemon src/app.js",
     "build": "babel src -d dist --source-maps",
-    "start": "nodemon src/index.js --exec babel-node",
-    "serve": "node dist/index.js"
+    "start": "nodemon src/app.js --exec babel-node",
+    "serve": "node dist/app.js"
   },
   "devDependencies": {
     "-": "^0.0.1",
     "babel-cli": "^6.26.0",
     "body-parser": "^1.19.0",
-    "mongoose": "^6.0.11",
-    "nodemon": "^2.0.13"
+    "mongoose": "^6.0.12",
+    "nodemon": "^2.0.14"
   },
   "description": "Esta es el back del proyecto alojado en \"https://github.com/rCristian21/Proyect-Ciclo3\"",
   "repository": "https://github.com/rCristian21/Back-end",
   "private": true,
   "dependencies": {
-    "express": "^4.17.1"
+    "axios": "^0.23.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
   }
 }

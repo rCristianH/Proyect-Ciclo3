@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function BuscarVenta() {
   return (
@@ -7,9 +8,9 @@ function BuscarVenta() {
         <div className="overview-boxes">
           <div className="box">
             <div className="right-side">
-              <a className="enlaceListaBarraNavegacion">
+              <Link className="enlaceListaBarraNavegacion">
                 <div className="number">Buscar Ventas</div>
-              </a>
+              </Link>
               <div className="search-box">
                 <input type="text" placeholder="Search..." />
               </div>
@@ -17,9 +18,9 @@ function BuscarVenta() {
           </div>
           <div className="box">
             <div className="right-side">
-              <a className="enlaceListaBarraNavegacion">
+              <Link className="enlaceListaBarraNavegacion">
                 <div className="number">Modificar</div>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./../../css/StyleProduct.css";
 
 
@@ -9,9 +10,9 @@ function BuscarProducto() {
         <div className="overview-boxes">
           <div className="box">
             <div className="right-side">
-              <a className="enlaceListaBarraNavegacion">
+              <Link className="enlaceListaBarraNavegacion">
                 <div className="number">Buscar Producto</div>
-              </a>
+              </Link>
               <div className="search-box">
                   <input type="text" placeholder="Search..."/>        
               </div>
@@ -19,9 +20,9 @@ function BuscarProducto() {
           </div>
           <div className="box">
             <div className="right-side">
-              <a className="enlaceListaBarraNavegacion">
+              <Link className="enlaceListaBarraNavegacion">
                 <div className="number">Modificar</div>
-              </a>
+              </Link>
             </div>
           </div>  
         </div>

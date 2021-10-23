@@ -6,7 +6,7 @@ import Target from "../img/Target.png";
 function ContenidoInicio() {
   return (
     <div>
-     <img className="target-logo" src={Target} />
+     <img className="target-logo" src={Target} alt=""/>
     </div>
   );
 }
