@@ -27,7 +27,7 @@ function ListaProductos(props) {
           {/* <ul class="details">
             <li class="topic">Date</li>
             <li>
-              <p>02 Jan 2021</p>
+              <p>02 Jan 2021</p>j
             </li>
             <li>
               <p>02 Jan 2021</p>
