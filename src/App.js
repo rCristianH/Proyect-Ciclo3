@@ -23,11 +23,19 @@ import ListarVentas from "./components/Sales/Boxes/ListSale";
 /* import ActualizarUsuario from "./components/Users/Boxes/UpdateUser"; */
 import ListaUsuarios from "./components/Users/Boxes/ListUser";
 import ActualizarUsuario from "./components/Users/Boxes/UpdateUser";
+import Google from "./components/Login/GoogleLogin";
+import Registro from "./components/Login/Registro";
 
 function App() {
   return (
     <Switch>
       <Route exact path={"/"}>
+      <Google />
+      </Route>
+      <Route exact path={"/Registro"}>
+      <Registro />
+      </Route>
+      <Route exact path={"/Header"}>
         <Cabecera />
         <ContenidoInicio />
       </Route>

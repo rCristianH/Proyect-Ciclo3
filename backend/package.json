@@ -5,9 +5,9 @@
   "author": "ccrhdbj@outlook.com",
   "license": "MIT",
   "scripts": {
-    "watch": "nodemon src/app.js",
+    "watch": "nodemon app.js",
     "build": "babel src -d dist --source-maps",
-    "start": "nodemon src/app.js --exec babel-node",
+    "start": "node app.js",
     "serve": "node dist/app.js"
   },
   "devDependencies": {
@@ -22,6 +22,7 @@
   "private": true,
   "dependencies": {
     "axios": "^0.23.0",
+    "chalk": "^4.1.2",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
     "morgan": "^1.10.0"

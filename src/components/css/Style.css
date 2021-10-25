@@ -1,0 +1,129 @@
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*align-items: center;*/
+    font-family: 'Opificio', sans-serif !important;
+    background-image: url('../img/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.form{
+    width: 350px;
+    height: 500px;
+    background-color: rgba(82, 80, 80, 0.575);
+    border-radius: 15px; 
+    position: relative;
+    top: 100px;
+    left:37%;
+}
+.usercircle{
+    display: flex;
+    justify-content: center;
+    color: #367ce6ee;
+    font-size: 100px;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border-radius: 100px;
+    background: white;
+    position: relative;
+    top: -45px;
+}
+#signin{
+    text-align:center;
+    color:white;
+    font-size:40px;
+    position:relative;
+    top:-20px;
+}
+.login{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 270px;
+}
+.usericon{
+    padding: 8px 15px;
+    font-size: 23px;
+    position: relative;
+    left: -21px;
+    color: white;
+    border-right:2px solid white;
+}
+.buttons .usericon:hover{
+    background: white;
+    font-size: 23px;
+    position: relative;
+    left: -21px;
+    color: #367ce6ee;
+    border-right:2px solid #367ce6ee;
+}
+.divuser{
+    position: relative;
+    background: white;
+    height: 25px;
+    margin-bottom: 20px;
+}
+.login .divuser{
+    padding: 0px 0px 8px 0px;
+}
+.regisicon{
+    padding: 8px 10px;
+    font-size: 23px;
+    position: relative;
+    left: -40px;
+    color: white;
+    border-right: 2px solid white;
+}
+.buttons .regisicon{
+    padding: 8px 10px;
+    font-size: 23px;
+    position: relative;
+    left: -40px;
+    color: white;
+    border-right: 2px solid white;
+    
+}
+.buttons .regisicon:hover{
+    background: white;
+    font-size: 23px;
+    position: relative;
+    left: -40px;
+    color: #367ce6ee;
+    border-right: 2px solid #367ce6ee;
+}
+.buttons{
+   background: #367ce6ee; 
+   width: 220px;
+   height: 52px;
+   color: white;
+   font-size: 20px;
+   border: none;
+   border-radius: 5px;
+   margin-top: 30px;
+
+}
+.buttons:hover{
+    background: white;
+    color: #367ce6ee;
+    border: 2px solid #367ce6ee;
+}
+
+button a:hover{
+    text-decoration: underline;
+    background: white;
+    color: #367ce6ee !important;
+    border: 2px solid #367ce6ee;
+}
+input{
+    outline-color: #367ce6ee;
+}
+:root{
+    --iconpas:blue;
+}

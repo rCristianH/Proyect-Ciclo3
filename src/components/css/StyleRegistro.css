@@ -1,0 +1,70 @@
+.form{
+    width: 350px;
+    height: 500px;
+    background-color: rgba(82, 80, 80, 0.575);
+    border-radius: 15px; 
+    position: relative;
+    top: 100px;
+   
+}
+.usercircle2{
+    display: flex;
+    justify-content: center;
+    color: #367ce6ee;
+    font-size: 100px;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border-radius: 100px;
+    background: white;
+    position: relative;
+    top: -45px;
+}
+.Regis{
+    margin: auto;
+    display: flex;
+    position: relative;
+    top: -20px;
+    width: 270px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    /*align-items: stretch;*/
+}
+.campo{
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+}
+.textbox{
+    margin-top: 5px;
+    height: 25px;
+}
+.btnlink{
+    text-decoration: none;
+    background: #367ce6ee; 
+    width: 122px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 20px 5px 0px 5px;
+}
+.btnlink:hover{
+    background: white; 
+    color: #367ce6ee;
+    border: 2px solid #367ce6ee;
+}
+.oblig{
+    color: red;
+    font-size: 20px;
+    display: inline-block;
+}
+.oculto{
+    display: none;
+}
+.valida{
+    font-size: 12px;
+    color: red;
+}
