@@ -6,7 +6,7 @@ function BarraNavegacion() {
   return (
     <div>
       <nav className="navbar">
-      <Link to={"/"}>
+      <Link to={"/Header"}>
         <div className="logo">
           <i className="bx bxs-up-arrow icon"></i>
           <p className="enlaceLogoBarraNavegacion">TARGET</p>
@@ -14,7 +14,7 @@ function BarraNavegacion() {
         </Link>
         <ul className="menu">
           <li className="listaNavegacionBarra">
-            <Link to={"/"}>
+            <Link to={"/Header"}>
             <p className="enlaceListaBarraNavegacion">Home</p>
             </Link>
           </li>

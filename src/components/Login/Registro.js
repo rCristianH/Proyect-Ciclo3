@@ -11,6 +11,7 @@ const Registro = (props) => {
     const[valorCorreo,CambiarValorCorreo] = useState('');
     const[valorvalida,CambiarValorValida] = useState('');
     const[valorFecha,CambiarValorFecha] = useState('2021-10-07');
+    const[valorPerfil] = useState('Vendedor');
     const[valorEstado,CambiarValorEstado] = useState('No Autorizado');
 
 
@@ -52,6 +53,7 @@ const Registro = (props) => {
                             Nombres: valorNombre,
                             Apellidos: valorApellidos,
                             Correo: valorCorreo,
+                            Perfil: valorPerfil,
                             Estado: valorEstado,
                             Date: new Date(),
                         }
