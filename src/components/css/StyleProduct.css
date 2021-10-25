@@ -1,20 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins',sans-serif;
+  font-family: "Poppins", sans-serif;
   transition: all 0.3s ease;
 }
-/*body{
-  height: 100vh;;
-  width: 100%;
-  display: inline-block;
-  background-image: url('../img/fondo.jpg');
-  background-repeat:no-repeat ;
-  background-size: 100% ;
-}*/
-header{
+
+header {
   height: 90vh;
   width: 95%;
   background: rgba(255, 255, 255, 0.1);
@@ -26,13 +19,12 @@ header{
   border-radius: 25px;
   margin: 2.5% 2.5%;
   position: relative;
-  
 }
 .bx {
   font-size: 30px;
-  color:#ffF;
+  color: #fff;
 }
-.navbar{
+.navbar {
   background-color: rgba(82, 80, 80, 0.575);
   margin: auto;
   width: 100%;
@@ -41,21 +33,20 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
-.menu{
+.menu {
   display: flex;
   flex-wrap: wrap;
   margin-top: 10px;
   margin-bottom: 0px;
 }
-.enlaceLogoBarraNavegacion{
+.enlaceLogoBarraNavegacion {
   text-decoration: none;
   font-size: 40px;
   color: #000;
   font-weight: 500;
 }
-.listaNavegacionBarra{
+.listaNavegacionBarra {
   list-style: none;
   margin: 0 6px;
 }
@@ -66,25 +57,24 @@ header{
   font-weight: 500;
   transition: all 0.3s ease;
 }
-.enlaceListaBarraNavegacion:hover{
-  color: #fff ;
+.enlaceListaBarraNavegacion:hover {
+  color: #fff;
 }
 
-.logo{
+.logo {
   display: flex;
   align-items: center;
 }
 
-.overview-boxes{
+.overview-boxes {
   display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 50px;
-    margin-bottom: 26px;
-    justify-content: space-evenly;
-
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 50px;
+  margin-bottom: 26px;
+  justify-content: space-evenly;
 }
-.buttonss .button{
+.buttonss .button {
   outline: none;
   color: #f2f2f2;
   font-size: 18px;
@@ -95,14 +85,8 @@ header{
   margin: 0 8px;
   cursor: pointer;
   transition: all 0.3s ease;
-/*   background-image: linear-gradient( 135deg, #ff9a9e  10%, #F6416C 100%); */
-background-image: linear-gradient( 135deg, #ad9aff  10%, #5c41f6 100%);
+  background-image: linear-gradient(135deg, #ad9aff 10%, #5c41f6 100%);
 }
-.buttonss .button:hover{
+.buttonss .button:hover {
   transform: scale(0.97);
 }
-
-
-
-
-

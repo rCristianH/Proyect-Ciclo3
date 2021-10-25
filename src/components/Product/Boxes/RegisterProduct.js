@@ -78,7 +78,11 @@ const RegistrarProducto = () => {
                   CambiarValorPrecio(event.target.value);
                 }}
               />
-              <button type={"button"} className="btn btn-outline-info"  onClick={ButtonClick}>
+              <button
+                type={"button"}
+                className="btn btn-outline-info"
+                onClick={ButtonClick}
+              >
                 Agregar Producto
               </button>
             </div>
@@ -90,33 +94,3 @@ const RegistrarProducto = () => {
 };
 
 export default RegistrarProducto;
-/* 
-<div className="right-side">
-  <label className="box-topic" for="Nombre">
-    Nombre
-  </label>
-  <input className="number" type="text" id="Nombre" name="Nombre" autoFocus />
-  <label className="box-topic" for="Id">
-    Id
-  </label>
-  <input className="number" type="text" id="Id" name="Id" />
-  <label className="box-topic" for="Categoria">
-    Categoria
-  </label>
-  <input className="number" type="text" id="Categoria" name="Categoria" />
-  <label className="box-topic" for="Descripcion">
-    Descripcion
-  </label>
-  <input className="number" type="text" id="Descripcion" name="Descripcion" />
-  <label className="box-topic" for="Colores">
-    Colores
-  </label>
-  <input className="number" type="text" id="Colores" name="Colores" />
-  <label className="box-topic" for="Precio">
-    Precio
-  </label>
-  <input className="number" type="text" id="Precio" name="Precio" />
-  <button type="button" class="btn btn-outline-info">
-    Agregar Producto
-  </button>
-</div>; */

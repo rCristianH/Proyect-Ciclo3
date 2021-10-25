@@ -1,5 +1,4 @@
-
-.box{
+.box {
   display: inline-block;
   align-items: center;
   justify-content: center;
@@ -10,21 +9,21 @@
   text-align: center;
   box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
   border: 1px solid #fff;
-  }
-.box-topic{
-    font-size: 20px;
-    font-weight: 500;
-  }
-.number{
-    display: inline-block;
-    font-size: 20px;
-    margin-top: -6px;
-    font-weight: 400;
-    border-radius: 12px;
-    background: #414df642;
-    border: 1px solid #fff;
-  }
-.recent-sales{
+}
+.box-topic {
+  font-size: 20px;
+  font-weight: 500;
+}
+.number {
+  display: inline-block;
+  font-size: 20px;
+  margin-top: -6px;
+  font-weight: 400;
+  border-radius: 12px;
+  background: #414df642;
+  border: 1px solid #fff;
+}
+.recent-sales {
   width: 65%;
   background: #414df62d;
   padding: 20px 30px;
@@ -34,16 +33,15 @@
   border: 1px solid #fff;
   margin-left: 19%;
 }
-
-.btn{
+.btn {
   margin-top: 10px;
   color: #fff;
   border: 1px solid #fff;
   background-color: #367ce6ee;
   border-radius: 12px;
 }
-.btn:hover{
+.btn:hover {
   background-color: #fff;
-  color: #367ce6ee;;
-  border:1px solid #367ce6ee;
+  color: #367ce6ee;
+  border: 1px solid #367ce6ee;
 }

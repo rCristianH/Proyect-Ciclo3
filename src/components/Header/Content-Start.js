@@ -1,5 +1,4 @@
 import React from "react";
-/* import "./../css/StyleProduct.css" */
 import "./../css/ContentStart.css";
 import Target from "../img/Target.png";
 

@@ -1,28 +1,46 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 function BuscarVenta() {
+
+  const [ValorBuscarVenta, CambiarValorBuscarVenta] = useState("");
+
+  const ButtonClick = () => {
+    if (ValorBuscarVenta === "") {
+      alert("Los campos no pueden estar vacíos");
+    } else {
+      const BuscarVenta = {
+        Buscar: ValorBuscarVenta,
+      };
+      console.log(BuscarVenta);
+    }
+  };
+
+
   return (
     <div>
       <div>
         <div className="overview-boxes">
-          <div className="box">
-            <div className="right-side">
-              <Link className="enlaceListaBarraNavegacion">
-                <div className="number">Buscar Ventas</div>
-              </Link>
-              <div className="search-box">
-                <input type="text" placeholder="Search..." />
-              </div>
-            </div>
+          <div>
+            <input
+              type="text"
+              autoFocus
+              className="searchbox"
+              onChange={(event) => {
+                CambiarValorBuscarVenta(event.target.value);
+              }}
+            />
+            <button type={"button"} onClick={ButtonClick} className="buttons">
+              Buscar Venta
+            </button>
           </div>
-          <div className="box">
-            <div className="right-side">
-              <Link className="enlaceListaBarraNavegacion">
-                <div className="number">Modificar</div>
-              </Link>
-            </div>
-          </div>
+              
+          <Link>
+            <button type={"button"} className="buttons">
+              Modificar
+            </button>
+          </Link>
         </div>
       </div>
     </div>

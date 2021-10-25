@@ -6,16 +6,16 @@ function BarraNavegacion() {
   return (
     <div>
       <nav className="navbar">
-      <Link to={"/Header"}>
-        <div className="logo">
-          <i className="bx bxs-up-arrow icon"></i>
-          <p className="enlaceLogoBarraNavegacion">TARGET</p>
-        </div>
+        <Link to={"/Header"}>
+          <div className="logo">
+            <i className="bx bxs-up-arrow icon"></i>
+            <p className="enlaceLogoBarraNavegacion">TARGET</p>
+          </div>
         </Link>
         <ul className="menu">
           <li className="listaNavegacionBarra">
             <Link to={"/Header"}>
-            <p className="enlaceListaBarraNavegacion">Home</p>
+              <p className="enlaceListaBarraNavegacion">Home</p>
             </Link>
           </li>
           <li className="listaNavegacionBarra">
@@ -24,13 +24,13 @@ function BarraNavegacion() {
             </Link>
           </li>
           <li className="listaNavegacionBarra">
-            <Link to={'/Productos'}>
-            <p className="enlaceListaBarraNavegacion">Productos</p>
+            <Link to={"/Productos"}>
+              <p className="enlaceListaBarraNavegacion">Productos</p>
             </Link>
           </li>
           <li className="listaNavegacionBarra">
-            <Link to={'/Usuarios'}> 
-            <p className="enlaceListaBarraNavegacion">Usuarios</p>
+            <Link to={"/Usuarios"}>
+              <p className="enlaceListaBarraNavegacion">Usuarios</p>
             </Link>
           </li>
           <li className="listaNavegacionBarra">
