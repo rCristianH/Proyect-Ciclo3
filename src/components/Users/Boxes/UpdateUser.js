@@ -1,11 +1,7 @@
 import React from "react";
 
 function ActualizarUsuario() {
-  return(
-    <div>
-      
-    </div>
-  )
+  return <div></div>;
 }
 
 export default ActualizarUsuario;

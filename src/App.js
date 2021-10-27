@@ -30,10 +30,10 @@ function App() {
   return (
     <Switch>
       <Route exact path={"/"}>
-      <Google />
+        <Google />
       </Route>
       <Route exact path={"/Registro"}>
-      <Registro />
+        <Registro />
       </Route>
       <Route exact path={"/Header"}>
         <Cabecera />

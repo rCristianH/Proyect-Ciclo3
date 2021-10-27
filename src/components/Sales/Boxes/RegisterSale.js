@@ -37,9 +37,10 @@ const RegistrarVenta = () => {
         <div className="overview-boxes">
           <div className="box">
             <div className="right-side">
-              <div className="box-topic">Producto</div>
+              <div className="box-topic">Contenido carrito</div>
               <input
                 className="number"
+                placeholder="Taza, TV, Zapato"
                 type="text"
                 id="Nombre"
                 name="Nombre"
@@ -47,15 +48,6 @@ const RegistrarVenta = () => {
                   CambiarValorProducto(event.target.value);
                 }}
                 autoFocus
-              />
-              <div className="box-topic">Vendedor</div>
-              <input
-                className="number"
-                type="text"
-                name="Id"
-                onChange={(event) => {
-                  CambiarValorVendedor(event.target.value);
-                }}
               />
               <div className="box-topic">Valor Venta</div>
               <input
@@ -66,6 +58,15 @@ const RegistrarVenta = () => {
                   CambiarValorVenta(event.target.value);
                 }}
               />
+              <div className="box-topic">Vendedor</div>
+                            <input
+                              className="number"
+                              type="text"
+                              name="Id"
+                              onChange={(event) => {
+                                CambiarValorVendedor(event.target.value);
+                              }}
+                            />
               <div className="box-topic">Nombre Cliente</div>
               <input
                 className="number"
@@ -75,7 +76,7 @@ const RegistrarVenta = () => {
                   CambiarValorNombreCliente(event.target.value);
                 }}
               />
-              <div className="box-topic">ID Cliente</div>
+              <div className="box-topic">Numero de Documento</div>
               <input
                 className="number"
                 type="text"
@@ -87,6 +88,7 @@ const RegistrarVenta = () => {
               <div className="box-topic">Fecha de Venta</div>
               <input
                 className="number"
+                placeholder="aaaa-mm-dd"
                 type="text"
                 name="FV"
                 onChange={(event) => {
