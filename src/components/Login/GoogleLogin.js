@@ -40,12 +40,12 @@ export function Google(props) {
               onClick={renderProps.onClick}
               disabled={renderProps.disabled}
             >
-              <a className="usericon">
+              {/* <a className="usericon">
                 <FontAwesomeIcon icon={faUser} />
-              </a>
-              {/* <Link className="usericon">
+              </a> */}
+              <Link className="usericon">
                 <FontAwesomeIcon icon={faUser} />
-              </Link> */}
+              </Link>
               <span>Iniciar Sesión</span>
             </button>
           )}
@@ -55,12 +55,12 @@ export function Google(props) {
         />
         <Link to={"/Registro"} style={{ textDecoration: "none" }}>
           <button type={"button"} className="buttons">
-            <a className="regisicon">
+            {/* <a className="regisicon">
               <FontAwesomeIcon icon={faUserPlus} />
-            </a>
-            {/* <Link className="regisicon">
+            </a> */}
+            <Link className="regisicon">
               <FontAwesomeIcon icon={faUserPlus} />
-            </Link> */}
+            </Link>
             Registrar
           </button>
         </Link>
