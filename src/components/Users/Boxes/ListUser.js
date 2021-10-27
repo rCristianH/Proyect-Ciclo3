@@ -1,7 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function ListaUsuarios() {
+const ListaUsuarios = (props) => {
+ /*  const datos = useContext(AppContext)
+
+  useEffect(() => {
+    const users = httpGet(`${process.env.REACT_APP_BACKEND_URL}/users`)
+    console.log(users);
+  }, []) */
+
   return(
     <div>
       <div class="recent-sales box">

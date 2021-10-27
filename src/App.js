@@ -1,5 +1,6 @@
 import { Switch, Route } from "react-router-dom";
 import "./components/css/App.css";
+import AppContextComponent from "./components/AppContext/AppContext";
 
 //login
 import Cabecera from "./components/Header/Header";
@@ -39,6 +40,8 @@ function App() {
         <Cabecera />
         <ContenidoInicio />
       </Route>
+      <AppContextComponent>
+
       <Route exact path={"/Ventas"}>
         <Cabecera />
         <Ventas />
@@ -78,7 +81,6 @@ function App() {
         <Productos />
         <BuscarProducto />
       </Route>
-
       <Route exact path={"/Usuarios"}>
         <Cabecera />
         <Usuarios />
@@ -93,6 +95,7 @@ function App() {
         <Usuarios />
         <ActualizarUsuario />
       </Route>
+      </AppContextComponent>
     </Switch>
   );
 }
