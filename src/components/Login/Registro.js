@@ -1,6 +1,6 @@
 import "../css/StyleRegistro.css";
 import { Link } from "react-router-dom";
-import { useState, useContext } from "react";
+import { useState } from "react";
 import React from "react";
 import { faUserCircle } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -11,8 +11,9 @@ const Registro = (props) => {
   const [valorCorreo, CambiarValorCorreo] = useState("");
   const [valorvalida, CambiarValorValida] = useState("");
   const [valorFecha, CambiarValorFecha] = useState("2021-10-07");
+/*Quitar    const [valorFecha, CambiarValorFecha] = useState("2021-10-07"); */
   const [valorPerfil] = useState("Vendedor");
-  const [valorEstado, CambiarValorEstado] = useState("No Autorizado");
+  const [valorEstado, CambiarValorEstado]/* quitar == CambiarValorEstado */ = useState("No Autorizado");
 
   const buttonClick = (props) => {
     if (
@@ -46,8 +47,8 @@ const Registro = (props) => {
       var expReg =
         /^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$/;
       var esValido = expReg.test(valorCorreo);
-      if (esValido == true) {
-        if (valorCorreo == valorvalida) {
+      if (esValido == true) {//(esValido === true)
+        if (valorCorreo == valorvalida) {//(valorCorreo === valorvalida)
           let newUser = {
             Nombres: valorNombre,
             Apellidos: valorApellidos,
@@ -81,6 +82,7 @@ const Registro = (props) => {
         <div className="campo">
           <label id="Nombre">
             Nombre<a className={valorNombre === "" ? "oblig" : "oculto"}>*</a>
+            {/* Nombre<Link className={valorNombre === "" ? "oblig" : "oculto"}>*</Link> */}
           </label>
           <input
             className="textbox"
@@ -97,6 +99,8 @@ const Registro = (props) => {
           <label>
             Apellidos
             <a className={valorApellidos === "" ? "oblig" : "oculto"}>*</a>
+            {/* Apellidos
+            <Link className={valorApellidos === "" ? "oblig" : "oculto"}>*</Link> */}
           </label>
           <input
             className="textbox"
@@ -113,6 +117,8 @@ const Registro = (props) => {
           <label for="email">
             Correo Electrónico
             <a className={valorCorreo === "" ? "oblig" : "oculto"}>*</a>
+           {/*  Correo Electrónico
+            <Link className={valorCorreo === "" ? "oblig" : "oculto"}>*</Link> */}
           </label>
           <input
             id={"email"}
@@ -131,6 +137,8 @@ const Registro = (props) => {
           <label>
             Validar Correo
             <a className={valorvalida === "" ? "oblig" : "oculto"}>*</a>
+            {/* Validar Correo
+            <Link className={valorvalida === "" ? "oblig" : "oculto"}>*</Link> */}
           </label>
           <input
             className="textbox"
@@ -144,6 +152,9 @@ const Registro = (props) => {
           <a className={valorCorreo === valorvalida ? "oculto" : "valida"}>
             El valor ingresado no coincide con su correo
           </a>
+          {/* <Link className={valorCorreo === valorvalida ? "oculto" : "valida"}>
+            El valor ingresado no coincide con su correo
+          </Link> */}
         </div>
         <div style={{ textAlign: "center" }}>
           <button type={"button"} className="btnlink" onClick={buttonClick}>

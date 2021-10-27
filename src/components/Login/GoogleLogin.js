@@ -43,6 +43,9 @@ export function Google(props) {
               <a className="usericon">
                 <FontAwesomeIcon icon={faUser} />
               </a>
+              {/* <Link className="usericon">
+                <FontAwesomeIcon icon={faUser} />
+              </Link> */}
               <span>Iniciar Sesión</span>
             </button>
           )}
@@ -55,6 +58,9 @@ export function Google(props) {
             <a className="regisicon">
               <FontAwesomeIcon icon={faUserPlus} />
             </a>
+            {/* <Link className="regisicon">
+              <FontAwesomeIcon icon={faUserPlus} />
+            </Link> */}
             Registrar
           </button>
         </Link>
